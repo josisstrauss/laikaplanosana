@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Time management</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      background-image: url("assets/cipari.jpg");
+    }
+    form {
+      background-color: rgb(220, 220, 0);
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body style="margin: 0;">
+<h1>Informācijas daudzuma mērvienība</h1>
+<div class="teksts3">
+  <form>
+    <label for="GB">GB=</label>
+    <input type="number" name="GB" id="GB"><br><br>
+    <input type="button" value="Izteikt megabaitos" onclick="izteiktmb()">
+    <input type="text" id="MB" value=""><br><br>
+    <input type="button" value="Izteikt mibibaitos"  onclick="izteiktmib()">
+    <input type="text" id="MiB" value="">
+  </form>
+</div>
+ <script src="js/script3.js"></script>
+</body>
+
+</html>
